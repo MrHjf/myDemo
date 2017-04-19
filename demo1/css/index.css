@@ -1,0 +1,629 @@
+html{
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+.top-nav{
+	width:100%;
+	height:41px;
+	background:url(../images/header-bg.jpg) repeat-x;
+}
+.top-nav ul{
+	display: inline-block;
+	height:100%;
+	*display:inline;
+	*zoom:1;
+}
+.top-nav ul>li{
+	display: inline-block;
+	vertical-align: top;
+	margin-left:15px;
+	*display:inline;
+	*zoom:1
+}
+.top-nav ul.top-right>li{
+	margin-top:10px;
+}
+.top-nav ul.top-right>li>div{
+	border:1px solid #bfc6d7;
+}
+.top-nav ul.top-right>li>div>*{
+	display: inline-block;
+	*display:inline;
+	*zoom:1
+	vertical-align: baseline;
+	color:#707e91;
+}
+.top-nav ul.top-right>li>div a{
+	margin:0px 5px;
+}
+.top-nav ul.top-right>li>div>img{
+	vertical-align: top;
+    height: 22px;
+}  
+.top-nav ul.top-right>li a{
+	font-size: 14px;
+}
+.top-nav ul>li.last-li{
+	border: 1px solid #bfc6d7;
+    padding: 1px 16px 1px 6px;
+    position: relative;
+}
+.top-nav ul>li.last-li img{
+	position: absolute;
+	top:3px;
+	right:0px;
+}
+.main{
+	width:1000px;
+	height:100%;
+    margin:0 auto;
+}
+.line{
+	display:block;
+	width:1px;
+	height:20px;
+	background-color: #a8a8a8;
+	margin-top:10px;
+}
+.short-line{
+	display:inline-block;
+	width:1px;
+	height:13px;
+	background-color: #bfc6d7;
+	margin-top:5px;
+	*margin-right:15px;
+	*display:inline;
+	*zoom:1
+}
+.short-line-inner{
+	display:inline-block;
+	width:1px;
+	height:13px;
+	background-color: #bfc6d7;
+	*display:inline;
+	*zoom:1
+}
+.pull-left{
+	float:left;
+}
+.pull-right{
+	float:right;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear:both;
+}
+.gift{margin-bottom:-2px;}
+
+.container{
+	position: relative;
+	height: 1300px;
+	background: url(../images/bg.jpg) no-repeat;
+	width:100%;
+	background-size:cover;
+	background-position: center;
+}
+.container>div{
+	position: absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:0 auto;
+	*left:50%;
+	*margin-left:-500px;
+}
+.container .share{
+	background: url(../images/share-bg.png);
+	width:462px;
+	height:30px;
+}
+.share li:first-child{
+	text-align: left;
+	padding-left:20px;
+	box-sizing:border-box;
+}
+.share li:first-child{
+	text-align: left;
+	padding-left:20px;
+	box-sizing:border-box;
+}
+.share li.gameweb a{
+	margin-left:20px;
+}
+.share li.gamedownload a{
+	margin-left:20px;
+}
+.share li.forum a{
+	margin-right:20px;
+}
+.share li:first-child a,
+.share li a span{
+	background: url(../images/sprite.png) no-repeat;
+	display: block;
+	width:17px;
+	height:17px;
+	position: absolute;
+}
+.share li:first-child a.weibo{
+	background-position: 0px -1249px;
+	top:7px;
+	right:29px;
+	*right:49px;
+}
+.share li:first-child a.kongjian{
+	background-position: -20px -1249px;
+	top:7px;
+	right:7px;
+	*right:27px;
+	/**background-position: -20px -1249px;*/
+}
+.share li.gameweb span{
+	background-position: -38px -1249px;
+	top: 8px;
+    left: 20px;
+}
+.share li.gamedownload span{
+	background-position: -56px -1249px;
+	top: 8px;
+    left:20px;
+}
+.share li.forum span{
+	background-position: -74px -1249px;
+	top: 8px;
+    right: 20px;
+}
+.share li{
+	display: inline-block;
+	color:#fff;
+	width:110px;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+	text-align: center;
+	*display:inline;
+	*zoom:1
+}
+.share li a{
+	color:#fff;
+	font-size: 12px;
+}
+.container .title{
+	text-align: center;
+}
+.title .title-top{
+	background: url(../images/title.png) no-repeat;
+	width:855px;
+	height: 234px;
+	margin:0 auto;
+	position: relative;
+}
+.title .active{
+	background-image: url(../images/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0px -972px;
+	width:393px;
+	height:53px;
+	position: absolute;
+	left:231px;
+	bottom:2px;
+	color:#fff;
+	font-size: 18px;
+	line-height: 43px;
+}
+
+.container .twobtn{
+	text-align: center;
+}
+.twobtn .btns a{
+	width:264px;
+	height:77px;
+	background-image: url(../images/sprite.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-position: left top;
+	line-height: 70px;
+	color:#244049;
+	font-weight: bold;
+	font-size: 22px;
+}
+.twobtn .btns a.other-btn{
+	background-position: left -79px;
+	color:#5b2c05;
+}
+.container .logo{
+	color:#fff;
+	font-family: "宋体";
+	margin-left:20px;
+}
+.logo a{
+	color:#fff;
+	font-weight: bold;
+}
+.container .main-content{
+	text-align: center;
+	overflow: hidden;
+}
+.main-content .main-content-banner{
+	background-image: url(../images/content-bg.png);
+	background-repeat: no-repeat;
+	width:979px;
+	height:859px;
+	overflow: hidden;
+}
+.main-content .main-content-btn{
+	text-align: center;
+	margin-top:22px;
+}
+.main-content .main-content-btn a{
+	display: inline-block;
+	width:460px;
+	height:75px;
+	background:url(../images/sprite.png) no-repeat;
+	line-height: 75px;
+}
+.main-content-btn a>span{
+	font-size: 42px;
+	font-family: "impact";
+	vertical-align: top;
+}
+.main-content-btn a>span.btn-content{
+	font-size: 32px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	margin-left:5px;
+}
+.main-content .main-content-btn a.clickbtn{
+	background-position: 0px -162px;
+}
+.main-content-btn a.clickbtn>span{
+	color:#430708;
+}
+.main-content-btn a.clickbtn>span.btn-content{
+	color:#f5dea5;
+}
+.main-content .main-content-btn a.unclickbtn{
+	background-position: 0px -246px;
+}
+.main-content-btn a.unclickbtn>span{
+	color:#4c1d0a;
+}
+.main-content-btn a.unclickbtn>span.btn-content{
+	color:#bb9d72;
+}
+
+.main-content .main-content-left{
+	width:150px;
+}
+.main-content .main-content-left .left-content{
+	margin-top: 76px;
+    margin-left: 14px;
+    line-height: 1;
+}
+.main-content .main-content-left span{
+	font-family: "JCuYuan";
+	font-size: 40px;
+	color:#fff;
+}
+.main-content .main-content-left span.event{
+	font-size: 12px;
+	color:#293843;
+}
+.main-content .main-content-right{
+	width:829px;
+	margin-top:60px;
+	text-align:left;
+}
+.main-content .main-content-right h3{
+	font-family: "JCuYuan";
+	font-size: 35px;
+	color:#831f21;
+	margin-bottom:15px;
+}
+.main-content .main-content-right>a{
+	font-weight: bold;
+	font-size:16px;
+	color:#45403c;
+	margin-bottom: 15px;
+}
+.main-content .main-content-right .main-process{
+	background: url(../images/sprite.png) no-repeat;
+    background-position: -8px -1150px;
+    width: 535px;
+    height: 40px;
+    margin-top: 3px;
+    line-height: 40px;
+    margin-bottom:30px;
+}
+.main-content .numbtwo .main-process{
+	 background-position: -8px -840px;
+}
+.main-content-right .main-process li{
+	display:inline-block;
+	font-size: 13px;
+	font-weight: bold;
+	color:#fffaf6;
+	margin: 0px 10px;
+	*margin:0 12px;
+	*display:inline;
+	*zoom:1
+}
+.main-content .numbtwo .main-process li{
+	margin-right:12px;
+}
+.main-content .main-content-right .invitefriend{
+	font-size: 14px;
+	color:#24221e;
+	position: relative;
+}
+.main-content-right .invitefriend span.triangle{
+	/*background-image: url(../images/sprite.png);
+	background-repeat: no-repeat;*/
+	display: inline-block;
+	width:0px;
+	height:0px;
+	border:5px solid transparent;
+	border-left-color:#ae3033;
+}
+.main-content .main-content-right a.invite-btn{
+	background: url(../images/sprite.png) no-repeat;
+	width:325px;
+	height:85px;
+	background-position: 0px -330px;
+	display:inline-block;
+	margin:50px 0px 20px 5px;
+	font-size: 27px;
+	font-weight: bold;
+	color:#fff;
+	line-height: 85px;
+	text-align: center;
+	*display:inline;
+	*zoom:1
+}
+.main-content-right .invitefriend .red{
+	font-size: 14px;
+	color:#dd1218;
+}
+.main-content .main-content-right .showfriend{
+	background: url(../images/sprite.png) no-repeat;
+    display: block;
+    width: 427px;
+    height: 45px;
+    background-position: 0px -1102px;
+    position: absolute;
+    right: 11px;
+    *right:-20px;
+    top: -12px;
+    line-height: 45px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.main-content-right .showfriend a.frash{
+	display: inline-block;
+    background: url(../images/sprite.png) no-repeat;
+    background-position: 0px -1070px;
+    width: 86px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    line-height: 30px;
+    text-align: center;
+    font-family: "宋体";
+    color:#fff;
+}
+.showgifts{
+	margin-top:30px;
+}
+.showgifts li{
+	display: inline-block;
+	margin-right: 38px;
+	*zoom:1;
+	*display: inline;
+}
+.showgifts li .giftsbox{
+	background: url(../images/sprite.png) no-repeat;
+    background-position: 0px -677px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+}
+.showgifts li .giftsbox img{
+	margin-top:15px;
+}
+.showgifts li .giftsbox .giftcommand{
+	font-size: 16px;
+    color: #edeae5;
+    margin-top: 3px;
+}
+.showgifts li a{
+	background: url(../images/sprite.png) no-repeat;
+    background-position: 0px -1020px;
+    width: 200px;
+    height: 50px;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+}
+.numbtwo .inner-box-left{
+	width:268px;
+	height:100%;
+	position: relative;
+}
+.numbtwo .inner-box-left .maskandtext{
+	position: absolute;
+    top: 7px;
+    width: 100%;
+    padding-left:10px;
+    left:0px;
+}
+.numbtwo .inner-box .inner-box-left .maskandtext>span{
+	font-size: 16px;
+	color:#fff71d;
+}
+.numbtwo .inner-box-right{
+	width:560px;
+	padding:0 20px;
+	box-sizing:border-box;
+	*zoom:1;
+	*width:520px;
+}
+.numbtwo .inner-box-right .invite-btn{
+	margin:0;
+}
+.numbtwo .showgifts li .giftsbox{
+	background: url(../images/sprite.png) no-repeat;
+    background-position: -5px -540px;
+    width: 150px;
+    height: 120px;
+    text-align: center;
+}
+.numbtwo .showgifts{
+	margin-top:0px;
+}
+.numbtwo .showgifts li{
+	margin-right: 20px;
+}
+.numbtwo .showgifts li .giftsbox img{
+	width:65px;
+	height:65px;
+	margin-top:23px;
+}
+.numbtwo .inner-box-right .invitefriend .invitefriendbox{
+	text-align: center;
+}
+.numbtwo .inner-box-right .invitefriend .invitefriendbox *{
+	display: inline-block;
+	vertical-align: middle;
+}
+.numbtwo .getcard{
+    background: url(../images/sprite.png) no-repeat;
+    background-position: -5px -1198px;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    margin-left:60px;
+}
+.numbtwo .gobacksection{
+	background: url(../images/sprite.png) no-repeat;
+	background-position: 0px -416px;
+	display: block;
+	width:330px;
+	height:82px;
+	margin-top:45px;
+	font-size: 24px;
+	color:#fff;
+	line-height: 82px;
+	text-align: center;
+	position: relative;
+}
+.main-content .numbtwo .showplay{
+    background: url(../images/sprite.png) no-repeat;
+    background-position: -5px -888px;
+    display: block;
+    width: 280px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-family: "Microsoft";
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 7px;
+}
+.numbtwo .gobacksection .icon{
+	background: url(../images/sprite.png) no-repeat;
+    background-position: 0px -500px;
+    display: inline-block;
+    width: 27px;
+    height: 40px;
+    position: absolute;
+    top: 22px;
+}
+.footer{
+	width: 100%;
+    height: 108px;
+    background-color: #1d0607;
+    color: #6d5253;
+    overflow: hidden;
+}
+.footer ul{
+	text-align: center;
+	margin-top:20px;
+}
+.footer p{
+	text-align: center;
+	margin-top:10px;
+}
+.footer li{
+	display: inline-block;
+	*zoom:1;
+	*display: inline;
+}
+.footer li a{
+	color:#6d5253;
+	padding-left: 8px;
+    padding-right: 8px;
+    border-left: 1px solid #6d5253;
+    font-size: 12px;
+}
+.footer li:first-child a{
+	border-left:none;
+}
+#mask{
+	position: absolute;
+	top:0px;
+}
+#mask .modal {
+	width:479px;
+	height: 184px;
+	text-align: center;
+	background: url(../images/alertmodal.png) no-repeat;
+	position: absolute;
+	z-index: 9999;
+	left: 50%;/*FF IE7*/
+	top: 50%;/*FF IE7*/
+	margin-left: -239.5px!important;/*FF IE7 该值为本身宽的一半 */
+	margin-top: -92px!important;/*FF IE7 该值为本身高的一半*/
+	margin-top: 0px;
+	position: fixed!important;/*FF IE7*/
+	position: absolute;/*IE6*/
+ 	_top: expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+ 	document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+}
+#mask .modal p{
+	font-family: "Microsoft";
+	font-weight: bold;
+	font-size: 24px;
+	color:#9d1e20;
+	margin-top:61px;
+}
+#mask .modal img{
+	position: absolute;
+	top:0px;
+	right:-39px;
+	cursor: pointer;
+}
+#mask .mask{
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+	z-index: 9998;
+	left: 0;
+	top: 0;/*FF IE7*/
+	filter: alpha(opacity=50);/*IE*/
+	opacity: 0.5;/*FF*/
+	position: fixed!important;/*FF IE7*/
+	position: absolute;/*IE6*/
+ 	_top:expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+ 	document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+}
+a:hover{
+	text-decoration: none;
+}
